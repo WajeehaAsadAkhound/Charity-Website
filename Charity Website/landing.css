@@ -1,0 +1,273 @@
+/* .container{
+    border: 5px solid black;
+
+} */
+
+.nav{
+    background: darkcyan;
+    width: 100px;
+}
+
+.navbar-nav{
+    margin-right: 70px;
+}
+.navbar-brand{
+    margin-left: 30px;
+}
+.nav-link:hover{
+    color: white !important;
+}
+.carousel-item{
+    height: 80vh;
+}
+h1{
+    text-align: center;
+    margin: 50px 0 !important;
+    font-family: sans-serif;
+}
+.a{
+    margin: 0px auto;
+    margin-top: -40px;
+}
+.card{
+    margin-top: 20px;
+    height: 380px;
+    text-align: center;
+    background-color: #218490;
+    border-radius: 40px 0px 40px 0px;
+    border:2px solid black;
+}
+.card-img-top1{
+    width: 70px;
+    margin: 0px auto;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+.card-title{
+    margin: 0px auto;
+    text-align: center;
+}
+.p{
+    width: 70%;
+    margin: 0px auto;
+
+}
+.btn-light{
+    width: 30%;
+    margin: 0px auto; 
+    margin-bottom: 30px;
+    background-color: #ae7c54;
+    border:2px solid black;
+}
+@media only screen and (max-width:1240px) {
+    .btn-1{
+        padding: 1px;
+        width: 120px;
+        height: 30px;
+    } 
+    .card{
+        height:400px;
+    }
+}
+@media only screen and (max-width:948px) {
+    .card{
+        height: 550px;
+    }
+}
+.Pcards{
+    height: 520px;
+    border-radius: 40px  40px ;
+    border:2px solid #e8eeff; 
+}
+
+.card-body-a{
+    position: relative;
+    border:2px solid pink;
+}
+.card-text{
+    width: 90%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+p{
+    width: 70%;
+    margin: 0px auto;
+    
+}
+
+.btn-primary-r{
+    padding: 10px;
+    width: 100px;
+    height:60px;
+    margin-bottom: 5px; 
+    margin-left: 50px;
+    background-color: #408b4bd0;
+
+}
+.btn-primary-p{
+    padding: 5px;
+    width: 100px;
+    height:60px;
+    margin-left: 50px;
+    background-color:#408b4bd0;
+}
+.btn-primary-p:hover{
+    background-color: #d2c5c5;
+}
+.btn-primary-r:hover{
+    background-color: #d2c5c5;
+}
+
+
+/*@media only screen and (max-width:700px) {
+    .buttons-zac.btn-responsive {
+        display: flex;
+        flex-direction: row;
+        margin: 0px auto;
+        margin-left: 20px;
+    }}
+    @media only screen and (max-width:1000px){
+        .card-body-a{
+            height: 400px;
+            border:2px solid pink;
+            
+        }
+    }
+    /*h1{
+        text-align: center;
+        margin: 50px 0 !important;
+        font-family: sans-serif;
+    }*/
+    
+    .accordion-item{
+        box-shadow: 0 2px 20px 0 rgba(110,130,208, .18);
+    }
+    .accordion-button {
+    width: 100%;
+    height: 60px;
+    color: #000 !important ;
+    font-weight: bold !important;
+    text-align: left !important;
+    text-decoration: none !important;
+}
+/*.accordion-body{
+    background: #e8eeff;
+}*/
+.first_col{
+    width: 500px;
+    height: 600;
+    position: relative;
+    left: 100px;
+    top: 171px;
+    background-color: #a05902d3;
+    border-radius: 20px;
+}.img-fluid{
+    border-radius: 20px;
+    max-width: 570px;
+    margin-right: 200px;
+    margin-top: -5px;
+}
+.btn-dark{
+    background-color: #c1b689;
+    border: #c1b689;
+}
+.btn-dark:hover{
+    background-color: #d2c5c5;
+}
+.last_row{
+    width: 60% !important;
+    position: relative !important;
+    left: 300px;
+    top: 150px;
+    padding-bottom: 100px !important;
+    background-color: #c1b689;
+    border-radius: 20px;
+}
+.form-control[type=text]:focus{
+    border: 2px solid #555;
+}
+@media only screen and (max-width:700px) {
+    .first_col{
+        position: initial;
+        left: 0;
+    }           
+    .last_row{
+    left: 0 !important;
+    width: 100% !important;
+    height: 480px !important;
+    top: 0 !important; 
+    }           
+}
+.footer{
+    background-color:#143719d0 ;
+    margin-top: 180px;
+}
+.footer a:hover{
+    color: white;
+    transition: 0.5s;
+}
+
+.hov{
+    color:blue;
+}
+.hov:hover{
+    color: white;
+    transition: 0.5s;
+}
+
+.fa {
+    padding: 16px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+  /* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+    border-radius: 50%;
+}
+  /* Twitter */
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+    border-radius: 50%;
+}
+  /* Youtube */
+.fa-youtube {
+    background: Red;
+    color: white;
+    border-radius: 50%;
+}
+.fa-instagram{
+    background: rgb(255, 0, 221);
+    color: white;
+    border-radius: 50%;  }
+.fa-google{
+    background: rgb(25, 0, 255);
+    color: white;
+    border-radius: 50%;
+}
+.smallcard{
+    margin-left:  50px;;
+}
+.btn-secondary-z{
+    padding: 0px;
+    width: 100px;
+    height:50px;
+    margin-left: 50px;
+    background-color:#1f102772;
+}
+.btn-secondary-z:hover{
+    background-color: #138d25;
+}
+h3{
+    text-align: center;
+    margin: 50px 0 !important;
+    font-family: sans-serif;
+}

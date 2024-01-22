@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Donation Form</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="landing.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   
+  <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.css">
+  <script defer src="bootstrap-5.0.2-dist/js/bootstrap.bundle.js"></script>
+</head>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-secondary">
+        <a href="#" class="navbar-brand">
+        <img src="logooo.png" class="" alt="Charity" style="height: 50px;">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto mb-2 text-center ">
+                <li class="nav-item">
+                    <a class="nav-link active" href="home.html" style="margin-top: -30px;">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="blog.html">Blog</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Event.html">Event</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="question.html">Question</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Contact Us.html">Contact Us</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="donation.html">Donate now</a>
+              </li>
+                </ul>
+            </div>
+            </a>
+            </div>
+        </nav>
+
+<body>
+
+<div class="container mt-5">
+  <h2><b>Donation Form</b></h2>
+  <form id="donationForm">
+    <div class="form-row">
+      <div class="form-group col-md-6">
+        <label for="firstName"><b>First Name</b></label>
+        <input type="text" class="form-control" id="firstName" name="firstName" required>
+      </div>
+      <div class="form-group col-md-6">
+        <label for="lastName"><b>Last Name</b></label>
+        <input type="text" class="form-control" id="lastName" name="lastName" required>
+      </div>
+    </div>
+    <div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="phoneNumber"><b>Phone Number</b></label>
+      <input type="tel" class="form-control" id="phoneNumber" name="phoneNumber" required>
+    </div>
+    <div class="form-group col-md-6">
+      <label for="Email"><b>Email Address</b></label>
+      <input type="tel" class="form-control" id="Email" name="Email" required>
+    </div>
+  </div>
+    <div class="form-group">
+      <label for="address"><b>Address</b></label>
+      <textarea class="form-control" id="address" name="address" rows="3" required></textarea>
+    </div>
+    <div class="form-row">
+      <div class="form-group col-md-6">
+        <label for="donationDate"><b>Donation Date</b></label>
+        <input type="date" class="form-control" id="donationDate" name="donationDate" required>
+      </div>
+      <div class="form-group col-md-6">
+        <label for="donationAmount"><b>Donation Amount</b></label>
+        <input type="number" class="form-control" id="donationAmount" name="donationAmount" min="1" required>
+      </div>
+    </div>
+    <div class="form-group">
+      <label for="city"><b>City</b></label>
+      <input type="text" class="form-control" id="city" name="city" required>
+    </div>
+    
+    
+    <div class="form-group">
+      <label for="donationType"><b>Donation Type</b></label>
+      <div class="form-check">
+        <input class="form-check-input" type="radio" value="cloths" id="donationCloths" name="donationType[]">
+        <label class="form-check-label" for="donationCloths">Cloths</label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="radio" value="money" id="donationMoney" name="donationType[]">
+        <label class="form-check-label" for="donationMoney">Cash</label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="radio" value="money" id="donationMoney" name="donationType[]">
+        <label class="form-check-label" for="donationMoney">Rashan</label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="radio" value="other" id="donationOther" name="donationType[]">
+        <label class="form-check-label" for="donationOther">Other</label>
+      </div>
+    </div>
+    <!-- Placeholder for payment processing -->
+    <div class="form-group">
+      <label for="paymentMethod"><b>Payment Method</b></label>
+      <select class="form-control" id="paymentMethod" name="paymentMethod" required>
+        <option value="easypaisa">EasyPaisa</option>
+        <option value="jazzcash">JazzCash</option>
+        <option value="creditCard">Credit Card</option>
+      </select>
+    </div>
+    <button type="submit" class="btn btn-primary"><b>Donate</b></button>
+  </form>
+</div>
+<footer class="footer">
+  <div class="text-white pt-5 pb-4">
+  <div class="container-fluid-f text-center text-md-left">
+    <div class="row text-center text-md-left">
+      <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+        <h5 class="text-uppercase mb-4 font-weight-bold text-warning">COMPANY NAME</h5>
+        <p class=" hov">Jamshoro Charitable Organization</p>
+      </div>
+      <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+        <h5 class="text-uppercase mb-4 font-weight-bold text-warning">PROJECTS</h5>
+        <p>
+          <a href="water.html" class="p-hover "  style="text-decoration: none;">Water Aid</a> <br>
+          <a href="#" class="p-hover "  style="text-decoration: none;">Medicine Aid</a> <br>
+          <a href="#" class="p-hover "  style="text-decoration: none;">Fight poverty</a> <br>
+          <a href="#" class="p-hover"  style="text-decoration: none;">Scholarships</a> <br>
+          <a href="#" class="p-hover"  style="text-decoration: none;">Need is greatest</a><br>
+        </p>
+      </div>
+      <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+        <h5 class="text-uppercase mb-4 font-weight-bold text-warning">KEY LINKS</h5>
+        <p>
+          <a href="work.html" class="p-hover" style="text-decoration: none;">Ways to donate</a><br>
+          <a href="blog.html" class="p-hover" style="text-decoration: none;">Blogs</a><br>
+          <a href="question.html" class="p-hover" style="text-decoration: none;">Questions</a> <br>
+          <a href="event.html" class="p-hover" style="text-decoration: none;">Events</a> <br>
+        </p>
+      </div>
+      <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+        <h5 class="text-uppercase mb-4 font-weight-bold text-warning">contacts</h5>
+        <p class="">
+          <a href="p-hover"><i class="p-hover"style="text-decoration: none;"></i>example@gmail.com</a><br>
+          <a href="p-hover"><i class="p-hover"style="text-decoration: none;"></i>03160392492</a><br>
+        </p>
+      </div>
+    </div>
+
+    <a href="#" class="fa fa-facebook"></a>
+    <a href="#" class="fa fa-youtube"></a>
+    <a href="#" class="fa fa-twitter"></a>
+    <a href="#" class="fa fa-instagram"></a>
+    <a href="#" class="fa fa-google"></a>
+    <hr class="mb-4">
+    <div class="row align-items-center">
+      <div class="col-md-7 col-lg-8">
+        <p>copyright @2024 All rights reserved by:
+          <a href="#" style="text-decoration: none;">
+            <strong class="text-warning">the providers</strong>
+          </a>
+        </p>
+      </div>
+    </div>
+  </div>
+  </div>
+</div>
+</div>
+</footer>
+
+
+<!-- Bootstrap JS and dependencies -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+<!-- Optional: Add your payment processing script here -->
+
+</body>
+</html>
